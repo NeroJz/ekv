@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+
+.pengguna input{
+ width: 96% !important;
+ display: block;
+ margin: auto;
+}
+
+.pengguna > .btn-primary{
+ width: 80px !important;
+ display: block;
+ margin: auto;
+ margin-top: 15px; 
+}
+
+
+}
+
+
+
+@media (max-width: 767px){
+.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+ margin-right:0px !important;
+ margin-left:0px !important;
+}
+
+}
+
+
+@media (max-width: 615px){
+.greeting{ display: none;}
+.navbar .btn-navbar {
+display: block;
+margin-right: 10px;
+}
+
+}
+
+@media (max-width: 979px){
+.nav-collapse, .nav-collapse.collapse { height:auto;}

@@ -1,0 +1,26 @@
+<div class="control-group">
+	<label class="control-label" for="mod_mark_centre">Markah Modul (Pusat) :</label>
+	<div class="controls">
+		<input type="text" name="mod_mark_centre" id="mod_mark_centre" class="validate[required] text-input" />
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="">Peratusan Amali/Teori Pusat :</label>
+	<div class="controls">
+		Teori : <input type="text" maxlength="3" name="pt_teori_p" id="pt_teori_p" class="validate[required] text-input" style="width:30px;" />%
+		Amali : <input type="text" maxlength="3" name="pt_amali_p" id="pt_amali_p" class="validate[required] text-input" style="width:30px;" />%
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="mod_mark_school">Markah Modul (Sekolah) :</label>
+	<div class="controls">
+		<input type="text" name="mod_mark_school" id="mod_mark_school" class="validate[required] text-input" />
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label" for="col_code">Peratusan Amali/Teori Sekolah :</label>
+	<div class="controls">
+		Teori : <input type="text" maxlength="3" name="pt_teori_s" id="pt_teori_s" class="validate[required] text-input" style="width:30px;" />%
+		Amali : <input type="text" maxlength="3" name="pt_amali_s" id="pt_amali_s" class="validate[required] text-input" style="width:30px;" />%
+	</div>
+</div>

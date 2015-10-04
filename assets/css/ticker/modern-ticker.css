@@ -1,0 +1,85 @@
+@charset "utf-8";
+.modern-ticker {
+	width: 900px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px;
+	font-size: 16px;
+	color: #fafafa;
+	background-color: #fafafa;
+	position: relative
+}
+.modern-ticker ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+.mticker-round {
+	border-radius: 7px
+}
+.mticker-label {
+	margin-right: 2px;
+	padding: 0 8px 0 12px;
+	background-color: #09f;
+	float: left
+}
+.mticker-round .mticker-label {
+	border-radius: 5px 0 0 5px
+}
+.mticker-news {
+	background-color: ;overflow: hidden;
+	float: left
+}
+.mticker-scroll .mticker-news {
+	background-color: transparent
+}
+.mticker-news ul {
+	width: 100%;
+	background-image: url("images/mticker-bullet-over.png");
+	background-repeat: no-repeat;
+	background-position: -1000px
+}
+.mticker-news li {
+	float: left
+}
+.mticker-controls {
+	margin-left: 2px;
+	height: 100%;
+	float: right;
+	background-image: url("images/mticker-pause.png");
+	background-repeat: no-repeat;
+	background-position: -1000px
+}
+.mticker-play, .mticker-prev, .mticker-next {
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	float: left
+}
+.mticker-prev, .mticker-next {
+	background-color: #09f
+}
+.mticker-prev {
+	background-image: url("images/mticker-arrow-prev.png")
+}
+.mticker-next {
+	background-image: url("images/mticker-arrow-next.png")
+}
+.mticker-round .mticker-next {
+	border-radius: 0 5px 5px 0
+}
+.mticker-play {
+	background-color: #0bf;
+	background-image: url("images/mticker-play.png")
+}
+.mticker-pause {
+	background-image: url("images/mticker-pause.png")
+}
+.mticker-play:hover, .mticker-prev:hover, .mticker-next:hover {
+	background-color: #f20
+}
+.mticker-play:active, .mticker-prev:active, .mticker-next:active {
+	background-color: #f40
+}
